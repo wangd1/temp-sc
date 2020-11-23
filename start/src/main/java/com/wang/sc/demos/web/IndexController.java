@@ -29,7 +29,7 @@ public class IndexController {
     private ArrayList<User> queryUsers() {
         ArrayList<User> users = new ArrayList<>();
         for (int i = 0; i < 1000; i++) {
-            users.add(new User(i,"zhuge333"));
+            users.add(new User(i,"zhuge55"));
         }
         return users;
     }
