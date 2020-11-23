@@ -5,6 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 
+/**
+ * @author dwang
+ */
 @RestController
 public class IndexController {
 
@@ -21,12 +24,12 @@ public class IndexController {
 
     /**
      * 模拟批量查询用户场景
-     * @return
+     * @return 用户list
      */
     private ArrayList<User> queryUsers() {
         ArrayList<User> users = new ArrayList<>();
         for (int i = 0; i < 1000; i++) {
-            users.add(new User(i,"zhuge"));
+            users.add(new User(i,"zhuge222"));
         }
         return users;
     }
