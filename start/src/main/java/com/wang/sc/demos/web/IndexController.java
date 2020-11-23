@@ -26,7 +26,7 @@ public class IndexController {
     private ArrayList<User> queryUsers() {
         ArrayList<User> users = new ArrayList<>();
         for (int i = 0; i < 1000; i++) {
-            users.add(new User(i,"zhuge"));
+            users.add(new User(i,"zhuge111"));
         }
         return users;
     }
