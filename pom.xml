@@ -23,6 +23,7 @@
         <module>temp-sc-manager</module>
         <module>temp-sc-service</module>
         <module>temp-sc-web</module>
+        <module>rabbitmq-base</module>
     </modules>
 
     <dependencyManagement>
