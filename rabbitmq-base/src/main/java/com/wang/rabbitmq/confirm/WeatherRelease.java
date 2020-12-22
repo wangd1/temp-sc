@@ -21,6 +21,7 @@ public class WeatherRelease {
         area.put("12.b.2.c","aa2");
         area.put("13.c.3.c","aa3");
         area.put("14.d.4.d","aa4");
+        area.put("14.d.4.d1","aa4");
 
         area.put("14.c.a.a","aa6");
         area.put("14.e.b.b","aa7");
